@@ -1,0 +1,52 @@
+body {
+    background-color: #F5F5F5;
+    color: #212121;
+}
+ul {
+    list-style: none; 
+}
+
+/* logo */
+.logo {
+    color: #000000;
+}
+
+.web {
+    color: #2196F3;
+}
+/* site-nav */
+.site-nav a{
+    color: #212121;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: #000000;
+}
+/* portfolio */
+.site-nav .portfolio a{
+    color: #2196F3;
+}
+
+/* mail */
+.contacts .mail a{
+    color: #2196F3;
+}
+
+/* tel */
+.contacts .tel a{
+    color: #757575;
+}
+
+
+
+
+
+/* основний колір тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* чорний #000000 */
+/* білий #FFFFFF */
+/* акцент #2196F3  */
+/* колір фону основний #F5F5F5 */
+/* другорядний фон #2F303A */
+/* третьорядний фон #F5F4FA */
