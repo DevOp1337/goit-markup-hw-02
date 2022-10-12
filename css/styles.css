@@ -1,47 +1,3 @@
-body {
-    background-color: #F5F5F5;
-    color: #212121;
-}
-ul {
-    list-style: none; 
-}
-
-/* logo */
-.logo {
-    color: #000000;
-}
-
-.web {
-    color: #2196F3;
-}
-/* site-nav */
-.site-nav a{
-    color: #212121;
-}
-
-.site-nav:hover,
-.site-nav:focus {
-    color: #000000;
-}
-/* portfolio */
-.site-nav .portfolio a{
-    color: #2196F3;
-}
-
-/* mail */
-.contacts .mail a{
-    color: #2196F3;
-}
-
-/* tel */
-.contacts .tel a{
-    color: #757575;
-}
-
-
-
-
-
 /* основний колір тексту #212121 */
 /* другорядний колір тексту #757575 */
 /* чорний #000000 */
@@ -50,3 +6,115 @@ ul {
 /* колір фону основний #F5F5F5 */
 /* другорядний фон #2F303A */
 /* третьорядний фон #F5F4FA */
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --primary-backgroung-color:#F5F5F5;
+    --secondary-background-color: #2F303A;
+    --accent-color: #2196F3;
+
+}
+
+body {
+    background-color: var(--primary-backgroung-color);
+    color: var(--title-text-color);
+}
+ul {
+    list-style: none; 
+}
+
+/* logo */
+.logo {
+    color: var(--black-color);
+}
+
+.web {
+    color: var(--accent-color);
+}
+/* site-nav */
+.site-nav a{
+    color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #13d91d;
+}
+/* portfolio */
+.site-nav .portfolio {
+    color: var(--accent-color);
+}
+
+.site-nav .portfolio:hover,
+.site-nav .portfolio:focus {
+    color: var(--black-color);
+}
+/* contacts */
+.contacts .mail {
+    color: var(--accent-color);
+}
+
+.contacts .mail:hover,
+.contacts .mail:focus {
+    color: var(--black-color);
+}
+
+.contacts .tel {
+    color: var(--primary-text-color);
+}
+
+.contacts .tel:hover,
+.contacts .tel:focus {
+    color: var(--black-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--secondary-background-color);
+    color: var(--white-color);
+}
+
+/* особливості */
+
+
+.special-text {
+    color: var(--primary-text-color);
+}
+
+
+/* team */
+.team {
+    background-color: #F5F4FA;
+}
+.team .team-position {
+    color: var(--primary-text-color);
+}
+/* adress */
+
+.adress {
+    background-color: #2F303A;
+}
+
+.adress .logo {
+    color: var(--white-color);
+}
+
+.adress .maps {
+    color: var(--white-color);
+}
+
+.adress .maps:hover,
+.adress .maps:focus {
+    color: var(--black-color);
+}
+.adress .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress .link:hover,
+.adress .link:focus {
+    color: #000000;
+}
