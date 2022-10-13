@@ -44,6 +44,7 @@ ul {
     color: var(--accent-color);
 }
 /* site-nav */
+
 .site-nav a{
     color: var(--title-text-color);
         font-weight: 500;
@@ -56,6 +57,10 @@ ul {
 .site-nav a:focus {
     color: var(--accent-color);
 }
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 /* portfolio */
 .site-nav .portfolio {
     color: var(--title-text-color);
@@ -63,6 +68,10 @@ ul {
 
 .site-nav .portfolio:hover,
 .site-nav .portfolio:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .portfolio.current {
     color: var(--accent-color);
 }
 /* contacts */
@@ -107,11 +116,11 @@ ul {
         letter-spacing: 0.06em;   
 }
 
-/* button */
+/* button
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-backgroung-color);
-}
+} */
 
 /* особливості */
 
@@ -216,7 +225,7 @@ ul {
 }
 
 /* button */
-.hero .button{
+.hero-button {
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -229,12 +238,16 @@ ul {
     cursor: pointer;
 }
 
-.hero .button:hover,
-.hero .button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #188CE8;
 }
 
-.project .button {
+
+.project {
+    display: flex;
+}
+.button button{
     background-color: #F5F4FA;
     color: var(--title-text-color)
     font-family: 'Roboto';
@@ -246,7 +259,7 @@ ul {
     cursor: pointer;
 }
 
-.project .button:hover,
-.project .button:focus {
+.button button:hover,
+.button button:focus {
     background-color: var(--accent-color)
 }
