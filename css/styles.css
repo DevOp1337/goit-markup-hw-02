@@ -10,16 +10,16 @@
 :root {
     --title-text-color: #212121;
     --primary-text-color: #757575;
-    --white-color: #FFFFFF;
+    --white: #FFFFFF;
     --black-color: #000000;
-    --primary-backgroung-color: #F5F5F5;
-    --secondary-background-color: #2F303A;
+    --secondary-background-color: #F5F5F5;
+    --third-background-color: #2F303A;
     --accent-color: #2196F3;
 
 }
 
 body {
-    background-color: var(--primary-backgroung-color);
+    background-color: var(--white);
     color: var(--title-text-color);
     font-family: Roboto, sans-serif;
     
@@ -108,8 +108,8 @@ ul {
 
 /* hero */
 .hero {
-    background-color: var(--secondary-background-color);
-    color: var(--white-color);
+    background-color: var(--third-background-color);
+    color: var(--white)
 }
 
 .hero .hero-title {
@@ -120,14 +120,12 @@ ul {
         letter-spacing: 0.06em;   
 }
 
-/* button
-.button {
-    color: var(--title-text-color);
-    background-color: var(--primary-backgroung-color);
-} */
 
 /* особливості */
 
+.special {
+    background-color: var(--secondary-background-color);
+}
 .special-title {
     font-weight: 700;
     font-size: 14px;
@@ -141,8 +139,9 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}.work {
+    background-color: var(--secondary-background-color);
 }
-
 .work .work-title {
     font-weight: 700;
     font-size: 36px;
