@@ -59,10 +59,11 @@ ul {
 /* portfolio */
 .site-nav .portfolio {
     color: var(--title-text-color);
+}
 
 .site-nav .portfolio:hover,
 .site-nav .portfolio:focus {
-    color: var(--title-text-color);
+    color: var(--accent-color);
 }
 /* contacts */
 
@@ -75,6 +76,7 @@ ul {
 
 .contacts .mail {
     color: var(--primary-text-color);
+
 }
 
 .contacts .mail:hover,
@@ -184,7 +186,7 @@ ul {
 
 .adress .maps:hover,
 .adress .maps:focus {
-    color: var(--black-color);
+    color: var(--accent-color);
 }
 .adress .link {
     color: rgba(255, 255, 255, 0.6);
@@ -192,7 +194,7 @@ ul {
 
 .adress .link:hover,
 .adress .link:focus {
-    color: #000000;
+    color: var(--accent-color);
 }
 
 /* project */
