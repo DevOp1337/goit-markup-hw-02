@@ -21,8 +21,9 @@
 body {
     background-color: var(--white);
     color: var(--title-text-color);
+    font-size: 14px;
     font-family: Roboto, sans-serif;
-    
+    letter-spacing: 0.03em;  
 }
 a {
      text-decoration: none;
@@ -39,9 +40,7 @@ ul {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        /* identical to box height */
-    
-        letter-spacing: 0.03em;
+        
 }
 
 .web {
@@ -52,7 +51,6 @@ ul {
 .site-nav a{
     color: var(--title-text-color);
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
@@ -82,7 +80,6 @@ ul {
 
 .contacts {
     font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
@@ -112,7 +109,7 @@ ul {
     color: var(--white)
 }
 
-.hero .hero-title {
+.hero-title {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -128,26 +125,21 @@ ul {
 }
 .special-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
 }
 .special-text {
     color: var(--primary-text-color);
-
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-}.work {
+}
+.work {
     background-color: var(--secondary-background-color);
 }
-.work .work-title {
+.work-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* team */
@@ -155,63 +147,63 @@ ul {
     background-color: #F5F4FA;
 }
 
-.team .team-title {
+.team-title {
+    background-color: #F5F4FA;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
-.team .team-name {
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
-    letter-spacing: 0.03em;
 }
-.team .team-position {
+.team-position {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
-    letter-spacing: 0.03em;
 }
-/* adress */
+
+/* footer */
 
 .adress {
     background-color: #2F303A;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .adress .logo {
-    color: var(--white-color);
+    color:  var(--white);
 }
 
-.adress .maps {
-    color: var(--white-color);
+.maps {
+    font-style: normal;
+    color: var(--white);
 }
 
-.adress .maps:hover,
-.adress .maps:focus {
+.maps:hover,
+.maps:focus {
     color: var(--accent-color);
 }
-.adress .link {
+.link {
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.adress .link:hover,
-.adress .link:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
 
 /* project */
 
-.project .project-title {
+.project {
+    background-color: var(--secondary-background-color);
+}
+.project-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -219,16 +211,15 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.project .project-exsample {
+.project-exsample {
     color: var(--primary-text-color);
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }
 
 /* button */
 .hero-button {
+    font-family: inherit;
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -251,6 +242,7 @@ ul {
     display: flex;
 }
 .button button{
+    font-family: inherit;
     background-color: #F5F4FA;
     color: var(--title-text-color)
     font-family: 'Roboto';
@@ -258,7 +250,6 @@ ul {
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
