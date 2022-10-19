@@ -120,10 +120,8 @@ ul {
 
 /* особливості */
 
-.special {
-    background-color: var(--secondary-background-color);
-}
 .special-title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
 }
@@ -132,9 +130,7 @@ ul {
     font-weight: 400;
     line-height: 1.71;
 }
-.work {
-    background-color: var(--secondary-background-color);
-}
+
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -200,9 +196,6 @@ ul {
 
 /* project */
 
-.project {
-    background-color: var(--secondary-background-color);
-}
 .project-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -255,5 +248,6 @@ ul {
 
 .button button:hover,
 .button button:focus {
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+    color: var(--white);
 }
